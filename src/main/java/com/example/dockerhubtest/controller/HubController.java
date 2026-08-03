@@ -8,6 +8,6 @@ public class HubController {
 
     @GetMapping("/")
     public String main() {
-        return "root";
+        return "root2";
     }
 }
