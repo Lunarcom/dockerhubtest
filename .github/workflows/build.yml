@@ -1,0 +1,12 @@
+name: Java CI with Gradle
+
+on:
+  push:
+    branches: ["master"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, world!"
+      - uses: actions/checkout@v4
