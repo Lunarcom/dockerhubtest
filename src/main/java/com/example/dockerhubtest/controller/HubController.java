@@ -10,4 +10,9 @@ public class HubController {
     public String main() {
         return "root2";
     }
+
+    @GetMapping("/sub")
+    public String sub() {
+        return "sub";
+    }
 }
